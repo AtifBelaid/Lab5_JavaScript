@@ -11,6 +11,7 @@ function myFonction() {
             console.log("fruits "+fruits[i]);
             console.log("fruit "+fruit);
              result=true;
+             fruits.splice(i,1);
         }
     }
 
